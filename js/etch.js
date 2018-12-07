@@ -9,7 +9,3 @@ function createGrid() {
         gridBody.appendChild(box);
     }
 }
-
-function test() {
-    console.log('Hey!');
-}
