@@ -1,23 +1,22 @@
 const gridBody  = document.querySelector('.container');
 const gridBtn   = document.querySelector('#create-grid');
+const gridBoxes = document.querySelectorAll('div');
 let box;
 
 gridBtn.addEventListener('click', createGrid);
 
 function createGrid() {
-    for (let i = 0; i < 100; i++) {
+    for (let i = 0; i < 1482; i++) {
         box = document.createElement('div');
         box.classList.add('card');
-        box.style.border = '2px solid black';
+        box.style.border = '1px solid black';
         gridBody.appendChild(box);
     }
 }
 
-const gridBoxes = document.querySelectorAll('.card');
-
 Array.from(gridBoxes).forEach
-    (el => el.addEventListener('mouseover', () => {
-        console.log('test');
+    (el => el.addEventListener('click', () => {
+        console.log(el);
         el.style.backgroundColor = 'black';
     })
 )
