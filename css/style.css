@@ -21,7 +21,10 @@ html {
 }
 
 .navbar {
-    height: 12vh;
+    display        : flex;
+    align-items    : baseline;
+    justify-content: space-evenly;
+    height         : 12vh;
 }
 
 .box {
@@ -34,4 +37,10 @@ html {
 
 .orange {
     background-color: coral;
+}
+
+button {
+    margin-top   : 5vh;
+    font-size    : 20px;
+    border-radius: 0.5rem;
 }
