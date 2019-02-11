@@ -19,7 +19,7 @@ html {
   overflow       : hidden;
   height         : 650px;
   width          : 650px;
-  border         : 5px solid darkgrey;
+  border         : 5px solid azure;
   margin         : auto;
 }
 
@@ -45,8 +45,33 @@ html {
   background-color: coral;
 }
 
+#page-title {
+  padding: 0.35em 1.2em;
+  border-top: 0.1em solid azure;
+  border-bottom: 0.1em solid azure;
+  color: azure;
+  font-size: 36px;
+  font-weight: 200;
+  margin: 2rem;  
+}
+
 button {
-  margin-top   : 5vh;
-  font-size    : 20px;
-  border-radius: 0.5rem;
+  display: inline-block;
+  padding: 0.35em 1.2em;
+  border: 0.1em solid azure;
+  margin: 2rem;
+  border-radius: 0.12em;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-weight: 300;
+  font-size: 24px;
+  color: #fff;
+  background: dimgrey;
+  text-align: center;
+  transition: all 0.2s;
+}
+
+button:hover{
+  color: dimgray;
+  background-color: azure;
 }

@@ -47,8 +47,8 @@ function createGrid() {
     box.classList.add('box');
     box.setAttribute('style', 
       `border: ${border};
-        height: ${boxSize}px;
-        width : ${boxSize}px;`
+       height: ${boxSize}px;
+       width : ${boxSize}px;`
     )
     gridBody.appendChild(box);
   }
