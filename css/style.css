@@ -26,12 +26,12 @@ html {
 .navbar {
   display        : flex;
   align-items    : center;
-  justify-content: space-evenly;
+  justify-content: center;
   height         : 12vh;
 }
 
 .controller-container {
-  display: flex;
+  display        : flex;
   justify-content: center;
 }
 
@@ -56,22 +56,22 @@ html {
 }
 
 button {
-  display: inline-block;
-  padding: 0.35em 1.2em;
-  border: 0.1em solid azure;
-  margin: 2rem;
-  border-radius: 0.12em;
-  box-sizing: border-box;
+  display        : inline-block;
+  padding        : 0.35em 1.2em;
+  border         : 0.1em solid azure;
+  margin         : 2rem;
+  border-radius  : 0.12em;
+  box-sizing     : border-box;
   text-decoration: none;
-  font-weight: 300;
-  font-size: 24px;
-  color: #fff;
-  background: dimgrey;
-  text-align: center;
-  transition: all 0.2s;
+  font-weight    : 300;
+  font-size      : 24px;
+  color          : azure;
+  background     : dimgrey;
+  text-align     : center;
+  transition     : all 0.2s;
 }
 
 button:hover{
-  color: dimgray;
+  color           : dimgray;
   background-color: azure;
 }

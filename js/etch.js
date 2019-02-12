@@ -30,8 +30,9 @@ gridBody.addEventListener('mouseover', (e) => {
 function createGrid() {
   controller.classList.remove('create-grid');
   controller.textContent = 'Clear';
+  // prompt and validation for gridsize
   let gridSize = prompt('What size grid would you like?');
-  if (gridSize === '') {
+  if (gridSize === '' || isNaN(gridSize)) {
     alert(`Please enter a value between 2 and 100`);
     return;
   } else if (gridSize > 100) {
@@ -41,6 +42,7 @@ function createGrid() {
     alert(`That's too small!`);
     return;
   }
+  // create grid based on gridsize input
   let boxSize = gridBodySize / gridSize;
   for (let i = 0; i < gridSize * gridSize; i++) {
     box = document.createElement('div');
