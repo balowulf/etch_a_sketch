@@ -55,9 +55,34 @@ html {
   margin: 2rem;  
 }
 
+input {
+  display        : inline-block;
+  padding        : 0.35em 0.35em;
+  border         : 0.1em solid azure;
+  margin         : 2rem;
+  border-radius  : 0.12em;
+  box-sizing     : border-box;
+  text-decoration: none;
+  font-weight    : 300;
+  font-size      : 24px;
+  color          : azure;
+  background     : dimgrey;
+  text-align     : center;
+  transition     : all 0.2s;
+}
+
+input:hover{
+  color           : dimgray;
+  background-color: azure;
+}
+
+input:focus {
+  outline: none;
+}
+
 button {
   display        : inline-block;
-  padding        : 0.35em 1.2em;
+  padding        : 0.35em 0.35em;
   border         : 0.1em solid azure;
   margin         : 2rem;
   border-radius  : 0.12em;
