@@ -46,13 +46,13 @@ html {
 }
 
 #page-title {
-  padding: 0.35em 1.2em;
-  border-top: 0.1em solid azure;
+  padding      : 0.35em 1.2em;
+  border-top   : 0.1em solid azure;
   border-bottom: 0.1em solid azure;
-  color: azure;
-  font-size: 36px;
-  font-weight: 200;
-  margin: 2rem;  
+  color        : azure;
+  font-size    : 36px;
+  font-weight  : 200;
+  margin       : 2rem;  
 }
 
 input {
@@ -69,6 +69,7 @@ input {
   background     : dimgrey;
   text-align     : center;
   transition     : all 0.2s;
+  cursor         : pointer;
 }
 
 input:hover{
@@ -94,9 +95,11 @@ button {
   background     : dimgrey;
   text-align     : center;
   transition     : all 0.2s;
+  cursor         : pointer;
 }
 
 button:hover{
   color           : dimgray;
   background-color: azure;
+  cursor          : pointer;
 }
