@@ -13,7 +13,7 @@ button.style.display = 'none';
 
 /********** Event Listeners **********/
 
-controller.addEventListener('click', (e) => {
+controller.addEventListener('click', () => {
   if (controller.classList.contains('create-grid')) {
     gridPrompt();
   } else {
