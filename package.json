@@ -1,0 +1,22 @@
+{
+  "name": "etch_a_sketch",
+  "version": "1.0.0",
+  "description": "vanilla js Etch-A-Sketch game",
+  "main": "index.html",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/balowulf/etch_a_sketch.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/balowulf/etch_a_sketch/issues"
+  },
+  "homepage": "https://github.com/balowulf/etch_a_sketch#readme",
+  "dependencies": {
+    "vite": "^4.3.4"
+  }
+}
