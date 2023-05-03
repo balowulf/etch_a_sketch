@@ -81,6 +81,10 @@ input:focus {
   outline: none;
 }
 
+::placeholder {
+  color: azure;
+}
+
 button {
   display        : inline-block;
   padding        : 0.35em 0.35em;
@@ -103,3 +107,4 @@ button:hover{
   background-color: azure;
   cursor          : pointer;
 }
+
